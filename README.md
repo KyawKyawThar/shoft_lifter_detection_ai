@@ -1,8 +1,8 @@
 # README: Complete Shoplifting Detection System
 
-## 📋 What You Have
+## 📋 What We Have
 
-Your system includes **everything needed** for production deployment:
+
 
 ```
 ✅ YOLOv8 Pose Detection Model (best.pt)
