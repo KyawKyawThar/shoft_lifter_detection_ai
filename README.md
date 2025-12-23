@@ -53,6 +53,7 @@ shop_lifter/
 ├── SYSTEM_DESIGN.md             # Complete architecture documentation
 ├── MOBILE_APP_SETUP.md          # iOS/Android implementation
 ├── QUICK_START.md               # 30-minute setup guide
+├── SUBSCRIPTION_PLANS.md        # Pricing, tiers & onboarding (one-pager)
 └── dashboard.html               # Web dashboard (in QUICK_START.md)
 ```
 

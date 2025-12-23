@@ -154,18 +154,34 @@ Hardware:
 ON-PREMISES DEPLOYMENT
 ──────────────────────
 
-Hardware (one-time):
-  Server                        $1,500-3,000
-  Cameras (5 × $500)           $2,500
-  Network equipment            $500
-  ─────────────────────────────────
-  TOTAL ONE-TIME:              $4,500-6,000
+Hardware (note):
+  This project is offered as a software-only subscription. Hardware (servers, cameras,
+  PoE switches, NVR/DVRs, encoders, etc.) is NOT included and must be provided/installed
+  by the customer or their integrator.
 
-Operating (monthly):
-  Internet bandwidth           $50-200
-  Maintenance                  $200-500
-  ─────────────────────────────────
-  MONTHLY:                     $250-700
+Recommended minimal on-site hardware (customer-provided):
+  - Small/home setups: Raspberry Pi 4 + Coral USB or a light NUC (no GPU required)
+  - SMB setups: Refurbished server or small NUC with an external accelerator (Jetson/Coral/USB-NCS)
+  - High-throughput: Server with discrete GPU (RTX/GTX) for many streams
+
+Operating (monthly) — software subscription (example pricing):
+  Personal (1–2 cameras):        $9/month
+  Standard (up to 6 cameras):    $29/month
+  Business (up to 20 cameras):   $99/month
+  Enterprise (custom / 20+):      Custom pricing
+
+Optional paid services:
+  - Cloud storage / long retention
+  - Priority support & SLA
+  - Managed provisioning for installers
+
+Notes:
+  - Customers who prefer full turn-key installs can partner with local installers for hardware supply and installation.
+  - The above subscription prices are example starting points — adjust by market and support costs.
+  
+See the subscription one-pager for full pricing, onboarding and reseller details:
+
+- [SUBSCRIPTION_PLANS.md](SUBSCRIPTION_PLANS.md)
 ```
 
 ---

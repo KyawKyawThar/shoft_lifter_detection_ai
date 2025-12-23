@@ -24,21 +24,43 @@ Server is now running! 🎉
 
 ---
 
-## PART 2: Test the API (Using cURL or Postman)
+## SUBSCRIPTION MODEL & HARDWARE
 
-### Start Detection (Webcam)
-```bash
-curl -X POST http://localhost:5000/api/start/0
+This project is distributed as software-only on a monthly subscription. We DO NOT supply cameras, servers, or cabling. Customers provide their own cameras/NVRs or hire local installers.
+
+Subscription tiers (example):
+
+- **Personal** — $9/month
+    - Up to 2 cameras, mobile alerts, basic cloud sync
+
+- **Standard** — $29/month
+    - Up to 6 cameras, alert history, web dashboard, basic analytics
+
+- **Business** — $99/month
+    - Up to 20 cameras, multi-user, extended retention, priority support
+
+- **Enterprise** — Custom pricing for 20+ cameras, SLAs and managed services
+
+Recommended hardware is listed in `COMPONENTS.md` — customers should choose hardware appropriate to their camera count and retention requirements.
+
+---
+
+## ESTIMATED TIME TO PRODUCTION
+
+| Task | Time |
+|------|------|
+| Backend setup | 2-3 days |
+| Mobile app UI | 3-5 days |
+| Testing & debugging | 2-3 days |
+| Deployment | 1-2 days |
+| **Total** | **1-2 weeks** |
+
+You've already done the hard part (detection models)!
+The rest is just plumbing 🔧
+
+Good luck! 🚀
+
 ```
-
-Response:
-```json
-{"message": "Detection started", "source": "0"}
-```
-
-### Start Detection (IP Camera - RTSP)
-```bash
-curl -X POST http://localhost:5000/api/start/rtsp://192.168.1.100:554/stream
 ```
 
 ### Get System Status
